@@ -56,3 +56,7 @@ dependencies:
     name: sharedidp
     repository: https://eclipse-tractusx.github.io/charts/dev
     version: 2.0.0
+  - condition: sdfactory.enabled
+    name: sdfactory
+    repository: https://eclipse-tractusx.github.io/charts/dev
+    version: 2.1.11
